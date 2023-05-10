@@ -74,7 +74,7 @@ export default function App() {
         <main>
             {tenzies && <Confetti />}
             <h1 className="title">Tenzies</h1>
-            {tenzies && <p>You completed the game in {rolls} dice rolls!</p>}
+            {tenzies && <p className="dice-rolls">You completed the game in {rolls} dice rolls!</p>}
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="dice-container">
                 {diceElements}
